@@ -1,0 +1,40 @@
+version: "3"
+services:
+  bolt:
+    build: 
+      context: .
+      dockerfile: ./docker/Dockerfile
+    container_name: bolt
+    working_dir: /var/www/html
+    ports: 
+      - "80:80"
+    volumes: 
+          - .:/var/www/html
+          - ./docker/nginx_log:/var/log/nginx
+          - ./docker/php-fpm/php-fpm.log:/var/log/php-fpm.log
+          - ./docker/config/app.conf:/etc/nginx/conf.d/app.conf
+    links: 
+      - mysql
+  mysql:
+    image: mysql:5.7.35
+    container_name: db
+    ports: 
+      - "3308:3306"
+    volumes: 
+      - ./docker/mysql:/var/lib/mysql
+    environment:
+        MYSQL_DATABASE: laravel
+        MYSQL_ROOT_PASSWORD: password
+  phpmyadmin:
+      image: phpmyadmin/phpmyadmin
+      container_name: phpmyadmin
+      restart: unless-stopped
+      ports: 
+          - 8200:80
+      environment:
+          PMA_HOST: mysql
+          PMA_PORT: 3306
+          PMA_USER: root
+          PMA_PASSWORD: password
+      links: 
+        - mysql

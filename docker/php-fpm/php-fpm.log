@@ -1,0 +1,88 @@
+[14-Sep-2021 04:52:14] NOTICE: fpm is running, pid 18
+[14-Sep-2021 04:52:14] NOTICE: ready to handle connections
+[14-Sep-2021 04:52:14] NOTICE: systemd monitor interval set to 10000ms
+[14-Sep-2021 04:53:37] NOTICE: fpm is running, pid 18
+[14-Sep-2021 04:53:37] NOTICE: ready to handle connections
+[14-Sep-2021 04:53:37] NOTICE: systemd monitor interval set to 10000ms
+[14-Sep-2021 15:36:37] NOTICE: fpm is running, pid 17
+[14-Sep-2021 15:36:37] NOTICE: ready to handle connections
+[14-Sep-2021 15:36:37] NOTICE: systemd monitor interval set to 10000ms
+[15-Sep-2021 05:01:59] NOTICE: fpm is running, pid 18
+[15-Sep-2021 05:01:59] NOTICE: ready to handle connections
+[15-Sep-2021 05:01:59] NOTICE: systemd monitor interval set to 10000ms
+[15-Sep-2021 06:31:47] WARNING: [pool www] server reached pm.max_children setting (4), consider raising it
+[15-Sep-2021 16:03:15] NOTICE: fpm is running, pid 18
+[15-Sep-2021 16:03:15] NOTICE: ready to handle connections
+[15-Sep-2021 16:03:15] NOTICE: systemd monitor interval set to 10000ms
+[15-Sep-2021 16:51:19] WARNING: [pool www] child 29 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Declaration of App\GraphQL\Queries\UserQuery::authorize($root, array $args, $ctx, ?GraphQL\Type\Definition\ResolveInfo $resolveInfo = NULL, ?Closure $getSelectFields = NULL) must be compatible with Rebing\GraphQL\Support\Field::authorize($root, array $args, $ctx, ?GraphQL\Type\Definition\ResolveInfo $resolveInfo = NULL, ?Closure $getSelectFields = NULL): bool in /var/www/html/app/GraphQL/Queries/UserQuery.php on line 17"
+[15-Sep-2021 17:39:32] WARNING: [pool www] server reached pm.max_children setting (4), consider raising it
+[16-Sep-2021 08:02:20] NOTICE: fpm is running, pid 17
+[16-Sep-2021 08:02:20] NOTICE: ready to handle connections
+[16-Sep-2021 08:02:20] NOTICE: systemd monitor interval set to 10000ms
+[16-Sep-2021 08:07:17] WARNING: [pool www] server reached pm.max_children setting (4), consider raising it
+[16-Sep-2021 14:52:12] NOTICE: fpm is running, pid 18
+[16-Sep-2021 14:52:12] NOTICE: ready to handle connections
+[16-Sep-2021 14:52:12] NOTICE: systemd monitor interval set to 10000ms
+[16-Sep-2021 14:57:45] WARNING: [pool www] server reached pm.max_children setting (4), consider raising it
+[17-Sep-2021 05:38:02] NOTICE: fpm is running, pid 17
+[17-Sep-2021 05:38:02] NOTICE: ready to handle connections
+[17-Sep-2021 05:38:02] NOTICE: systemd monitor interval set to 10000ms
+[17-Sep-2021 08:32:32] WARNING: [pool www] server reached pm.max_children setting (4), consider raising it
+[18-Sep-2021 06:34:44] NOTICE: fpm is running, pid 17
+[18-Sep-2021 06:34:44] NOTICE: ready to handle connections
+[18-Sep-2021 06:34:44] NOTICE: systemd monitor interval set to 10000ms
+[18-Sep-2021 06:36:16] NOTICE: fpm is running, pid 17
+[18-Sep-2021 06:36:16] NOTICE: ready to handle connections
+[18-Sep-2021 06:36:16] NOTICE: systemd monitor interval set to 10000ms
+[18-Sep-2021 06:49:31] WARNING: [pool www] server reached pm.max_children setting (4), consider raising it
+[18-Sep-2021 14:26:27] NOTICE: fpm is running, pid 17
+[18-Sep-2021 14:26:27] NOTICE: ready to handle connections
+[18-Sep-2021 14:26:27] NOTICE: systemd monitor interval set to 10000ms
+[18-Sep-2021 14:37:26] WARNING: [pool www] server reached pm.max_children setting (4), consider raising it
+[19-Sep-2021 04:42:59] NOTICE: fpm is running, pid 18
+[19-Sep-2021 04:42:59] NOTICE: ready to handle connections
+[19-Sep-2021 04:42:59] NOTICE: systemd monitor interval set to 10000ms
+[19-Sep-2021 04:47:38] WARNING: [pool www] server reached pm.max_children setting (4), consider raising it
+[19-Sep-2021 14:30:47] NOTICE: fpm is running, pid 18
+[19-Sep-2021 14:30:47] NOTICE: ready to handle connections
+[19-Sep-2021 14:30:47] NOTICE: systemd monitor interval set to 10000ms
+[19-Sep-2021 15:06:57] WARNING: [pool www] server reached pm.max_children setting (4), consider raising it
+[19-Sep-2021 15:21:19] WARNING: [pool www] child 29 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Class App\GraphQL\Queries\LoginQuery contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Rebing\GraphQL\Support\Field::type) in /var/www/html/app/GraphQL/Queries/LoginQuery.php on line 14"
+[19-Sep-2021 15:21:21] WARNING: [pool www] child 28 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Class App\GraphQL\Queries\LoginQuery contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Rebing\GraphQL\Support\Field::type) in /var/www/html/app/GraphQL/Queries/LoginQuery.php on line 14"
+[19-Sep-2021 15:21:37] WARNING: [pool www] child 29 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Class App\GraphQL\Queries\LoginQuery contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Rebing\GraphQL\Support\Field::type) in /var/www/html/app/GraphQL/Queries/LoginQuery.php on line 14"
+[19-Sep-2021 15:21:37] WARNING: [pool www] child 31 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Class App\GraphQL\Queries\LoginQuery contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Rebing\GraphQL\Support\Field::type) in /var/www/html/app/GraphQL/Queries/LoginQuery.php on line 14"
+[19-Sep-2021 15:29:57] WARNING: [pool www] child 28 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Class App\GraphQL\Queries\LoginQuery contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Rebing\GraphQL\Support\Field::type) in /var/www/html/app/GraphQL/Queries/LoginQuery.php on line 14"
+[19-Sep-2021 15:29:57] WARNING: [pool www] child 31 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Class App\GraphQL\Queries\LoginQuery contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Rebing\GraphQL\Support\Field::type) in /var/www/html/app/GraphQL/Queries/LoginQuery.php on line 14"
+[19-Sep-2021 15:30:17] WARNING: [pool www] child 28 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Class App\GraphQL\Queries\LoginQuery contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Rebing\GraphQL\Support\Field::type) in /var/www/html/app/GraphQL/Queries/LoginQuery.php on line 14"
+[19-Sep-2021 15:30:18] WARNING: [pool www] child 29 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Class App\GraphQL\Queries\LoginQuery contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Rebing\GraphQL\Support\Field::type) in /var/www/html/app/GraphQL/Queries/LoginQuery.php on line 14"
+[20-Sep-2021 07:13:41] NOTICE: fpm is running, pid 17
+[20-Sep-2021 07:13:41] NOTICE: ready to handle connections
+[20-Sep-2021 07:13:41] NOTICE: systemd monitor interval set to 10000ms
+[20-Sep-2021 16:15:36] NOTICE: fpm is running, pid 17
+[20-Sep-2021 16:15:36] NOTICE: ready to handle connections
+[20-Sep-2021 16:15:36] NOTICE: systemd monitor interval set to 10000ms
+[20-Sep-2021 16:27:48] WARNING: [pool www] server reached pm.max_children setting (4), consider raising it
+[21-Sep-2021 05:21:28] NOTICE: fpm is running, pid 17
+[21-Sep-2021 05:21:28] NOTICE: ready to handle connections
+[21-Sep-2021 05:21:28] NOTICE: systemd monitor interval set to 10000ms
+[21-Sep-2021 08:53:24] NOTICE: fpm is running, pid 19
+[21-Sep-2021 08:53:24] NOTICE: ready to handle connections
+[21-Sep-2021 08:53:24] NOTICE: systemd monitor interval set to 10000ms
+[22-Sep-2021 09:09:55] NOTICE: fpm is running, pid 17
+[22-Sep-2021 09:09:55] NOTICE: ready to handle connections
+[22-Sep-2021 09:09:55] NOTICE: systemd monitor interval set to 10000ms
+[23-Sep-2021 15:06:19] NOTICE: fpm is running, pid 18
+[23-Sep-2021 15:06:19] NOTICE: ready to handle connections
+[23-Sep-2021 15:06:19] NOTICE: systemd monitor interval set to 10000ms
+[24-Sep-2021 09:16:25] NOTICE: fpm is running, pid 18
+[24-Sep-2021 09:16:25] NOTICE: ready to handle connections
+[24-Sep-2021 09:16:25] NOTICE: systemd monitor interval set to 10000ms
+[24-Sep-2021 09:40:33] WARNING: [pool www] child 30 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Cannot declare class App\graphql\Queries\UsersQuery, because the name is already in use in /var/www/html/app/GraphQL/Queries/CheckInsQuery.php on line 0"
+[24-Sep-2021 09:40:59] WARNING: [pool www] child 30 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Cannot declare class App\graphql\Queries\UsersQuery, because the name is already in use in /var/www/html/app/GraphQL/Queries/CheckInsQuery.php on line 0"
+[24-Sep-2021 09:41:26] WARNING: [pool www] child 28 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Cannot declare class App\graphql\Queries\UsersQuery, because the name is already in use in /var/www/html/app/GraphQL/Queries/CheckInsQuery.php on line 0"
+[24-Sep-2021 09:43:05] WARNING: [pool www] child 30 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Cannot declare class App\graphql\Queries\UsersQuery, because the name is already in use in /var/www/html/app/GraphQL/Queries/CheckInsQuery.php on line 0"
+[24-Sep-2021 09:43:11] WARNING: [pool www] child 28 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Cannot declare class App\graphql\Queries\UsersQuery, because the name is already in use in /var/www/html/app/GraphQL/Queries/CheckInsQuery.php on line 0"
+[24-Sep-2021 09:46:56] WARNING: [pool www] child 29 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Cannot declare class App\graphql\Queries\UsersQuery, because the name is already in use in /var/www/html/app/GraphQL/Queries/CheckInsQuery.php on line 0"
+[24-Sep-2021 12:29:07] NOTICE: fpm is running, pid 18
+[24-Sep-2021 12:29:07] NOTICE: ready to handle connections
+[24-Sep-2021 12:29:07] NOTICE: systemd monitor interval set to 10000ms
